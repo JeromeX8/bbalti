@@ -1,0 +1,168 @@
+.navmain {
+  padding: 0;
+  font-size: 1.45em;
+}
+
+.navflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.navbar{
+  margin-bottom: 0;
+}
+.navbar-default {
+  margin-bottom: 0!important;
+  border: none!important;
+}
+
+
+.BB {
+  font-size: 2.15em!important;
+  font-weight: bold;
+  color: black!important;
+  margin: 0;
+}
+.rafflemsg {
+  font-size: 1.25em!important;
+  font-weight: bold;
+
+}
+.homelogin {
+  color: black!important;
+  font-weight: bold;
+}
+
+.thankmsg {
+  color: white!important;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 0.3em;
+}
+
+.incclass {
+  position: relative;
+  display: inline-block;
+}
+
+.incbtn {
+  position: absolute;
+  top: 50%;
+  right: -140px;
+  transform: translateY(-50%);
+}
+
+.bghome {
+  background-image: url('../image/birminghambg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.loginbg {
+  background-image: url('../image/loginbg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.bgthank {
+  background-image: url('../image/thank.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nodisplay{
+  display: none;
+}
+
+.regbg {
+  background-image: url('../image/regbg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menubutton {
+  margin: 10px;
+  padding: 10px 18px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.menulogo {
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loginbx {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,0.9125);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.loginform label {
+  font-weight: bold;
+  color: black;
+}
+.leftpd{
+  padding-left: 50px;
+}
+.rightpd{
+  padding-right: 50px;
+}
+
+
+
+#loginbtn {
+  width: 200px;
+}
+#registerbtn {
+  width: 200px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+

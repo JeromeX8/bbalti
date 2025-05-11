@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</head>
+
+
+
+<body class="regbg">
+<div class="container loginbx">
+  <h2 class="text-center">Register</h2>
+
+  <form class="form-horizontal loginform" id="regform">
+    <div class="form-group row">
+      <label class="control-label col-sm-2" for="regusername">Username:</label>
+      <div class="col-sm-10 leftpd">
+        <input type="text" id="regusername" class="form-control" required>
+      </div>
+    </div>
+
+
+    <div class="form-group row">
+      <label class="control-label col-sm-2" for="regemail"> Email:</label>
+      <div class="col-sm-10">
+        <input type="email" id="regemail" class="form-control" required>
+      </div>
+    </div>
+
+
+    <div class="form-group row">
+      <label class="control-label col-sm-2" for="regpassword">Password:</label>
+      <div class="col-sm-10 leftpd">
+        <input type="password" id="regpassword" class="form-control" required>
+      </div>
+    </div>
+
+
+    <div class="form-group text-center">
+      <button type="submit" id="regbtn" class="btn btn-primary btn-lg">Register</button>
+    </div>
+    <div class="form-group">
+      <div class="alert alert-success nodisplay" id="success"></div>
+      <div class="alert alert-warning nodisplay" id="error"></div>
+    </div>
+  </form>
+</div>
+
+</body>
+
+
+
+
+</html>
+
+
+
+
+
